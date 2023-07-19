@@ -2,12 +2,13 @@
 int main()
 {
     int i,j;
-    for(i=1;i<=5;i++)
+    for(i=1;i<=4;i++)
     {
-        for(j=1;j<=5;j++)
+        for(j=1;j<=7;j++)
         {
-            if (i==j||i>j)
-            printf("*");
+            if(j>4-i&&j<i+2)
+
+            printf("%d",i);
             else
             printf(" ");
         }
